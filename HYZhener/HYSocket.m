@@ -38,7 +38,7 @@
 - (void)scrollViewWillBeginDragging:(UIScrollView *)scrollView{
     
     [[[UIApplication sharedApplication] keyWindow] endEditing:YES];
-    //
+    
 }
 
 
