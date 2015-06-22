@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		185D07DE1B25A6E900DDD5C7 /* HYSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 185D07DD1B25A6E900DDD5C7 /* HYSocket.m */; };
+		18806E171B3488D700B45CE2 /* CommonFunc.m in Sources */ = {isa = PBXBuildFile; fileRef = 18806E161B3488D700B45CE2 /* CommonFunc.m */; };
+		18806E1A1B348A5300B45CE2 /* NSStringForHY.m in Sources */ = {isa = PBXBuildFile; fileRef = 18806E191B348A5300B45CE2 /* NSStringForHY.m */; };
+		1886F7DD1B33119A00DC4158 /* HYFriend.m in Sources */ = {isa = PBXBuildFile; fileRef = 1886F7DC1B33119A00DC4158 /* HYFriend.m */; };
+		1886F7DF1B3313F500DC4158 /* friends.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1886F7DE1B3313F500DC4158 /* friends.plist */; };
+		1886F7E21B33A25400DC4158 /* HYTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1886F7E11B33A25400DC4158 /* HYTestController.m */; };
+		188FB98B1B32D3190001CAF5 /* HYFirendListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188FB98A1B32D3190001CAF5 /* HYFirendListController.m */; };
+		188FB9911B32F2DC0001CAF5 /* HYFriendGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 188FB9901B32F2DC0001CAF5 /* HYFriendGroup.m */; };
+		18AA68901B356FFF007A85FE /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AA688F1B356FFF007A85FE /* AsyncSocket.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		18AA68931B357019007A85FE /* AsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AA68921B357019007A85FE /* AsyncUdpSocket.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		18D1F5A31B26BAD600969D63 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D1F5A21B26BAD600969D63 /* Person.m */; };
+		18E10E011B270E2800EC5597 /* HY.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E10E001B270E2800EC5597 /* HY.m */; };
+		18F11B061B172780001F3551 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F11B051B172780001F3551 /* main.m */; };
+		18F11B091B172780001F3551 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F11B081B172780001F3551 /* AppDelegate.m */; };
+		18F11B0C1B172780001F3551 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F11B0B1B172780001F3551 /* ViewController.m */; };
+		18F11B0F1B172780001F3551 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F11B0D1B172780001F3551 /* Main.storyboard */; };
+		18F11B111B172780001F3551 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F11B101B172780001F3551 /* Images.xcassets */; };
+		18F11B141B172780001F3551 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18F11B121B172780001F3551 /* LaunchScreen.xib */; };
+		18F11B201B172780001F3551 /* HYZhenerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F11B1F1B172780001F3551 /* HYZhenerTests.m */; };
+		18F11B331B173015001F3551 /* HYqiubaiController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F11B321B173015001F3551 /* HYqiubaiController.m */; };
+		18F11B361B173022001F3551 /* HYbaomanController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F11B351B173022001F3551 /* HYbaomanController.m */; };
+		18FDD9F81B21782A00338D1D /* HYContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FDD9F71B21782A00338D1D /* HYContent.m */; };
+		18FDD9FA1B217D6900338D1D /* content.json in Resources */ = {isa = PBXBuildFile; fileRef = 18FDD9F91B217D6900338D1D /* content.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18F11B1A1B172780001F3551 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18F11AF81B172780001F3551 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18F11AFF1B172780001F3551;
+			remoteInfo = HYZhener;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		185D07DC1B25A6E900DDD5C7 /* HYSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYSocket.h; sourceTree = "<group>"; };
+		185D07DD1B25A6E900DDD5C7 /* HYSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYSocket.m; sourceTree = "<group>"; };
+		18806E151B3488D700B45CE2 /* CommonFunc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonFunc.h; sourceTree = "<group>"; };
+		18806E161B3488D700B45CE2 /* CommonFunc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonFunc.m; sourceTree = "<group>"; };
+		18806E181B348A5300B45CE2 /* NSStringForHY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSStringForHY.h; sourceTree = "<group>"; };
+		18806E191B348A5300B45CE2 /* NSStringForHY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStringForHY.m; sourceTree = "<group>"; };
+		1886F7DB1B33119A00DC4158 /* HYFriend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYFriend.h; sourceTree = "<group>"; };
+		1886F7DC1B33119A00DC4158 /* HYFriend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYFriend.m; sourceTree = "<group>"; };
+		1886F7DE1B3313F500DC4158 /* friends.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = friends.plist; sourceTree = "<group>"; };
+		1886F7E01B33A25400DC4158 /* HYTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYTestController.h; sourceTree = "<group>"; };
+		1886F7E11B33A25400DC4158 /* HYTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYTestController.m; sourceTree = "<group>"; };
+		188FB9891B32D3190001CAF5 /* HYFirendListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYFirendListController.h; sourceTree = "<group>"; };
+		188FB98A1B32D3190001CAF5 /* HYFirendListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYFirendListController.m; sourceTree = "<group>"; };
+		188FB98F1B32F2DC0001CAF5 /* HYFriendGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYFriendGroup.h; sourceTree = "<group>"; };
+		188FB9901B32F2DC0001CAF5 /* HYFriendGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYFriendGroup.m; sourceTree = "<group>"; };
+		18AA688E1B356FFF007A85FE /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
+		18AA688F1B356FFF007A85FE /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
+		18AA68911B357019007A85FE /* AsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncUdpSocket.h; sourceTree = "<group>"; };
+		18AA68921B357019007A85FE /* AsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncUdpSocket.m; sourceTree = "<group>"; };
+		18D1F5A11B26BAD600969D63 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		18D1F5A21B26BAD600969D63 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		18E10DFF1B270E2800EC5597 /* HY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HY.h; sourceTree = "<group>"; };
+		18E10E001B270E2800EC5597 /* HY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HY.m; sourceTree = "<group>"; };
+		18F11B001B172780001F3551 /* HYZhener.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HYZhener.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F11B041B172780001F3551 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F11B051B172780001F3551 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18F11B071B172780001F3551 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18F11B081B172780001F3551 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18F11B0A1B172780001F3551 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18F11B0B1B172780001F3551 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18F11B0E1B172780001F3551 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18F11B101B172780001F3551 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		18F11B131B172780001F3551 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		18F11B191B172780001F3551 /* HYZhenerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYZhenerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F11B1E1B172780001F3551 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F11B1F1B172780001F3551 /* HYZhenerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYZhenerTests.m; sourceTree = "<group>"; };
+		18F11B311B173015001F3551 /* HYqiubaiController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYqiubaiController.h; sourceTree = "<group>"; };
+		18F11B321B173015001F3551 /* HYqiubaiController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYqiubaiController.m; sourceTree = "<group>"; };
+		18F11B341B173022001F3551 /* HYbaomanController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYbaomanController.h; sourceTree = "<group>"; };
+		18F11B351B173022001F3551 /* HYbaomanController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYbaomanController.m; sourceTree = "<group>"; };
+		18FDD9F61B21782A00338D1D /* HYContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYContent.h; sourceTree = "<group>"; };
+		18FDD9F71B21782A00338D1D /* HYContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYContent.m; sourceTree = "<group>"; };
+		18FDD9F91B217D6900338D1D /* content.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = content.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18F11AFD1B172780001F3551 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F11B161B172780001F3551 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		185D07BA1B25A67000DDD5C7 /* WebSocket */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = WebSocket;
+			path = SocketTesterARC;
+			sourceTree = "<group>";
+		};
+		18913C461B23D510000EC3A7 /* socket */ = {
+			isa = PBXGroup;
+			children = (
+				18AA68911B357019007A85FE /* AsyncUdpSocket.h */,
+				18AA68921B357019007A85FE /* AsyncUdpSocket.m */,
+				18AA688E1B356FFF007A85FE /* AsyncSocket.h */,
+				18AA688F1B356FFF007A85FE /* AsyncSocket.m */,
+				185D07DC1B25A6E900DDD5C7 /* HYSocket.h */,
+				185D07DD1B25A6E900DDD5C7 /* HYSocket.m */,
+				18D1F5A11B26BAD600969D63 /* Person.h */,
+				18D1F5A21B26BAD600969D63 /* Person.m */,
+				188FB9891B32D3190001CAF5 /* HYFirendListController.h */,
+				188FB98A1B32D3190001CAF5 /* HYFirendListController.m */,
+				188FB98F1B32F2DC0001CAF5 /* HYFriendGroup.h */,
+				188FB9901B32F2DC0001CAF5 /* HYFriendGroup.m */,
+				1886F7DB1B33119A00DC4158 /* HYFriend.h */,
+				1886F7DC1B33119A00DC4158 /* HYFriend.m */,
+				1886F7E01B33A25400DC4158 /* HYTestController.h */,
+				1886F7E11B33A25400DC4158 /* HYTestController.m */,
+				18806E151B3488D700B45CE2 /* CommonFunc.h */,
+				18806E161B3488D700B45CE2 /* CommonFunc.m */,
+				18806E181B348A5300B45CE2 /* NSStringForHY.h */,
+				18806E191B348A5300B45CE2 /* NSStringForHY.m */,
+			);
+			name = socket;
+			sourceTree = "<group>";
+		};
+		18F11AF71B172780001F3551 = {
+			isa = PBXGroup;
+			children = (
+				18F11B021B172780001F3551 /* HYZhener */,
+				18F11B1C1B172780001F3551 /* HYZhenerTests */,
+				18F11B011B172780001F3551 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18F11B011B172780001F3551 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18F11B001B172780001F3551 /* HYZhener.app */,
+				18F11B191B172780001F3551 /* HYZhenerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18F11B021B172780001F3551 /* HYZhener */ = {
+			isa = PBXGroup;
+			children = (
+				185D07BA1B25A67000DDD5C7 /* WebSocket */,
+				18913C461B23D510000EC3A7 /* socket */,
+				18F11B2A1B172FAC001F3551 /* qiubai(糗百) */,
+				18F11B291B172FA3001F3551 /* baoman(暴漫) */,
+				18F11B071B172780001F3551 /* AppDelegate.h */,
+				18F11B081B172780001F3551 /* AppDelegate.m */,
+				18F11B0A1B172780001F3551 /* ViewController.h */,
+				18F11B0B1B172780001F3551 /* ViewController.m */,
+				18F11B0D1B172780001F3551 /* Main.storyboard */,
+				18F11B101B172780001F3551 /* Images.xcassets */,
+				18F11B121B172780001F3551 /* LaunchScreen.xib */,
+				18F11B031B172780001F3551 /* Supporting Files */,
+				18E10DFF1B270E2800EC5597 /* HY.h */,
+				18E10E001B270E2800EC5597 /* HY.m */,
+			);
+			path = HYZhener;
+			sourceTree = "<group>";
+		};
+		18F11B031B172780001F3551 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1886F7DE1B3313F500DC4158 /* friends.plist */,
+				18F11B041B172780001F3551 /* Info.plist */,
+				18F11B051B172780001F3551 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18F11B1C1B172780001F3551 /* HYZhenerTests */ = {
+			isa = PBXGroup;
+			children = (
+				18F11B1F1B172780001F3551 /* HYZhenerTests.m */,
+				18F11B1D1B172780001F3551 /* Supporting Files */,
+			);
+			path = HYZhenerTests;
+			sourceTree = "<group>";
+		};
+		18F11B1D1B172780001F3551 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18F11B1E1B172780001F3551 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18F11B291B172FA3001F3551 /* baoman(暴漫) */ = {
+			isa = PBXGroup;
+			children = (
+				18F11B341B173022001F3551 /* HYbaomanController.h */,
+				18F11B351B173022001F3551 /* HYbaomanController.m */,
+			);
+			name = "baoman(暴漫)";
+			sourceTree = "<group>";
+		};
+		18F11B2A1B172FAC001F3551 /* qiubai(糗百) */ = {
+			isa = PBXGroup;
+			children = (
+				18F11B311B173015001F3551 /* HYqiubaiController.h */,
+				18F11B321B173015001F3551 /* HYqiubaiController.m */,
+				18FDD9F61B21782A00338D1D /* HYContent.h */,
+				18FDD9F71B21782A00338D1D /* HYContent.m */,
+				18FDD9F91B217D6900338D1D /* content.json */,
+			);
+			name = "qiubai(糗百)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18F11AFF1B172780001F3551 /* HYZhener */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F11B231B172780001F3551 /* Build configuration list for PBXNativeTarget "HYZhener" */;
+			buildPhases = (
+				18F11AFC1B172780001F3551 /* Sources */,
+				18F11AFD1B172780001F3551 /* Frameworks */,
+				18F11AFE1B172780001F3551 /* Resources */,
+				1889F5AB1B1C85CF0070F03E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HYZhener;
+			productName = HYZhener;
+			productReference = 18F11B001B172780001F3551 /* HYZhener.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18F11B181B172780001F3551 /* HYZhenerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F11B261B172780001F3551 /* Build configuration list for PBXNativeTarget "HYZhenerTests" */;
+			buildPhases = (
+				18F11B151B172780001F3551 /* Sources */,
+				18F11B161B172780001F3551 /* Frameworks */,
+				18F11B171B172780001F3551 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18F11B1B1B172780001F3551 /* PBXTargetDependency */,
+			);
+			name = HYZhenerTests;
+			productName = HYZhenerTests;
+			productReference = 18F11B191B172780001F3551 /* HYZhenerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18F11AF81B172780001F3551 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HY;
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = HYZhener;
+				TargetAttributes = {
+					18F11AFF1B172780001F3551 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					18F11B181B172780001F3551 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 18F11AFF1B172780001F3551;
+					};
+				};
+			};
+			buildConfigurationList = 18F11AFB1B172780001F3551 /* Build configuration list for PBXProject "HYZhener" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18F11AF71B172780001F3551;
+			productRefGroup = 18F11B011B172780001F3551 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18F11AFF1B172780001F3551 /* HYZhener */,
+				18F11B181B172780001F3551 /* HYZhenerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18F11AFE1B172780001F3551 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FDD9FA1B217D6900338D1D /* content.json in Resources */,
+				18F11B0F1B172780001F3551 /* Main.storyboard in Resources */,
+				18F11B141B172780001F3551 /* LaunchScreen.xib in Resources */,
+				18F11B111B172780001F3551 /* Images.xcassets in Resources */,
+				1886F7DF1B3313F500DC4158 /* friends.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F11B171B172780001F3551 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1889F5AB1B1C85CF0070F03E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate\nif [ \"${PLATFORM_NAME}\" == \"iphoneos\" ] || [ \"${PLATFORM_NAME}\" == \"ipados\" ]; then\n/Applications/Xcode.app/Contents/Developer/iphoneentitlements/gen_entitlements.py \"my.company.${PROJECT_NAME}\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\";\ncodesign -f -s \"iPhone Developer\" --entitlements \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18F11AFC1B172780001F3551 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FDD9F81B21782A00338D1D /* HYContent.m in Sources */,
+				185D07DE1B25A6E900DDD5C7 /* HYSocket.m in Sources */,
+				18D1F5A31B26BAD600969D63 /* Person.m in Sources */,
+				18F11B361B173022001F3551 /* HYbaomanController.m in Sources */,
+				18F11B0C1B172780001F3551 /* ViewController.m in Sources */,
+				1886F7E21B33A25400DC4158 /* HYTestController.m in Sources */,
+				18F11B091B172780001F3551 /* AppDelegate.m in Sources */,
+				18806E1A1B348A5300B45CE2 /* NSStringForHY.m in Sources */,
+				188FB9911B32F2DC0001CAF5 /* HYFriendGroup.m in Sources */,
+				1886F7DD1B33119A00DC4158 /* HYFriend.m in Sources */,
+				18F11B061B172780001F3551 /* main.m in Sources */,
+				188FB98B1B32D3190001CAF5 /* HYFirendListController.m in Sources */,
+				18806E171B3488D700B45CE2 /* CommonFunc.m in Sources */,
+				18F11B331B173015001F3551 /* HYqiubaiController.m in Sources */,
+				18E10E011B270E2800EC5597 /* HY.m in Sources */,
+				18AA68931B357019007A85FE /* AsyncUdpSocket.m in Sources */,
+				18AA68901B356FFF007A85FE /* AsyncSocket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F11B151B172780001F3551 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F11B201B172780001F3551 /* HYZhenerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18F11B1B1B172780001F3551 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18F11AFF1B172780001F3551 /* HYZhener */;
+			targetProxy = 18F11B1A1B172780001F3551 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18F11B0D1B172780001F3551 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18F11B0E1B172780001F3551 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18F11B121B172780001F3551 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18F11B131B172780001F3551 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18F11B211B172780001F3551 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18F11B221B172780001F3551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18F11B241B172780001F3551 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HYZhener/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18F11B251B172780001F3551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HYZhener/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18F11B271B172780001F3551 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HYZhenerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HYZhener.app/HYZhener";
+			};
+			name = Debug;
+		};
+		18F11B281B172780001F3551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HYZhenerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HYZhener.app/HYZhener";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18F11AFB1B172780001F3551 /* Build configuration list for PBXProject "HYZhener" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F11B211B172780001F3551 /* Debug */,
+				18F11B221B172780001F3551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18F11B231B172780001F3551 /* Build configuration list for PBXNativeTarget "HYZhener" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F11B241B172780001F3551 /* Debug */,
+				18F11B251B172780001F3551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18F11B261B172780001F3551 /* Build configuration list for PBXNativeTarget "HYZhenerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F11B271B172780001F3551 /* Debug */,
+				18F11B281B172780001F3551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18F11AF81B172780001F3551 /* Project object */;
+}
